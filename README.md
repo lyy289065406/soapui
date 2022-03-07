@@ -1,12 +1,29 @@
-# jep
+# soapui
 
-> java 表达式解析器
+> soap 客户端
 
 ------
 
+
+
+
+
 ## 简介
 
-因此构件的官方组织/作者已放弃维护，且在 maven 中央仓库无法下载原版，故有了此项目，同时很可能会顺便修复一些 BUG。
+因此构件的官方组织/作者已放弃维护，且在 maven 中央仓库无法下载原版，故有了此项目。
+
+因没有源码（也无法编译），故是使用以下命令直接上传到 sonatype 的中央仓库：
+
+```shell
+mvn deploy:deploy-file \
+ -DgroupId=com.exp-blog \
+ -DartifactId=soapui \
+ -Dversion=1.7.1-SNAPSHOT \
+ -Dpackaging=jar \
+ -Dfile=`pwd`/soapui-1.7.1-SNAPSHOT.jar \
+ -Durl=https://s01.oss.sonatype.org/content/repositories/snapshots/ \
+ -DrepositoryId=sonatype
+```
 
 
 ## 使用方式
@@ -26,7 +43,7 @@ maven 的 `settings.yml` 配置 sonatype 中央仓库：
 ```xml
 <dependency>
     <groupId>com.exp-blog</groupId>
-    <artifactId>jvm-agent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <artifactId>soapui</artifactId>
+    <version>1.7.1-SNAPSHOT</version>
 </dependency>
 ```
