@@ -15,10 +15,10 @@
 mvn deploy:deploy-file \
  -DgroupId=com.exp-blog \
  -DartifactId=soapui \
- -Dversion=1.7.1-SNAPSHOT \
+ -Dversion=1.7.1 \
  -Dpackaging=jar \
- -Dfile=`pwd`/soapui-1.7.1-SNAPSHOT.jar \
- -Durl=https://s01.oss.sonatype.org/content/repositories/snapshots/ \
+ -Dfile=`pwd`/soapui-1.7.1.jar \
+ -Durl=https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/ \
  -DrepositoryId=sonatype
 ```
 
@@ -47,6 +47,6 @@ maven 的 `settings.yml` 配置 sonatype 中央仓库：
 <dependency>
     <groupId>com.exp-blog</groupId>
     <artifactId>soapui</artifactId>
-    <version>1.7.1-SNAPSHOT</version>
+    <version>1.7.1</version>
 </dependency>
 ```
