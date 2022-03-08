@@ -9,19 +9,6 @@
 
 因此构件的官方组织/作者已放弃维护，且在 maven 中央仓库无法下载原版，故有了此项目。
 
-因没有源码（也无法编译），故是使用以下命令直接上传到 sonatype 的中央仓库：
-
-```shell
-mvn deploy:deploy-file \
- -DgroupId=com.exp-blog \
- -DartifactId=soapui \
- -Dversion=1.7.1 \
- -Dpackaging=jar \
- -Dfile=`pwd`/soapui-1.7.1.jar \
- -Durl=https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/ \
- -DrepositoryId=sonatype
-```
-
 
 ## 使用方式
 
