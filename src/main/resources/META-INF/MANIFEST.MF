@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.5.3 
+Created-By: Apache Maven
+Built-By: Tom Fennelly
+Package: com.eviware.soapui
+Build-Jdk: 1.5.0_10
+Extension-Name: soapui
+Specification-Title: A desktop application for inspecting, developi...
+Specification-Vendor: eviware.com
+Implementation-Title: com.eviware.soapui
+Implementation-Vendor: eviware.com
+Implementation-Version: 1.7.1
+
