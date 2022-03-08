@@ -26,7 +26,7 @@
 
     <groupId>com.exp-blog</groupId>
     <artifactId>soapui</artifactId>
-    <version>1.7.1-SNAPSHOT</version>
+    <version>1.7.1</version>
 
     <properties>
         <java.version>1.8</java.version>
