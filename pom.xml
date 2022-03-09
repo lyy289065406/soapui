@@ -19,10 +19,14 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/lyy289065406/jvm-agent.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:lyy289065406/jvm-agent.git</developerConnection>
-        <url>https://github.com/lyy289065406/jvm-agent</url>
+        <connection>scm:git:https://github.com/lyy289065406/soapui.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:lyy289065406/soapui.git</developerConnection>
+        <url>https://github.com/lyy289065406/soapui</url>
     </scm>
+
+    <name>soapui</name>
+    <description>soapui client</description>
+    <url>https://github.com/lyy289065406/soapui</url>
 
     <groupId>com.exp-blog</groupId>
     <artifactId>soapui</artifactId>
